@@ -5,8 +5,8 @@ sizeControl.addEventListener("input", () => {
     
     const min = parseInt(sizeControl.getAttribute('min'));
     const max = parseInt(sizeControl.getAttribute('max'));
-    const value = parseInt(sizeControl.value);
+    const fontValue = parseInt(sizeControl.value);
     
-    textElement.style.fontSize = value + 'px';
+    textElement.style.fontSize = fontValue + 'px';
 });
 
